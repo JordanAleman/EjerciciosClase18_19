@@ -1127,7 +1127,7 @@ public class Ejercicios {
 				lectura = objetos.readObject(); // Avanza al siguiente objeto
 				contador++;
 			}
-			objetos.close();
+			objetos.close(); 
 			
 
 		} catch (FileNotFoundException e) {
